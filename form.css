@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height:100vh;
+    width: 100%;
+    background: rgb(141,143,219);
+    background: linear-gradient(0deg, rgba(141,143,219,0.9613095238095238) 23%, rgba(119,91,220,1) 58%);
+}
+
+form{
+    height: 500px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    margin:50px auto;
+    background-color:white;
+    border: 2px solid white;
+    border-radius: 40px;
+}
+form h2{
+    color: #6F00FF;
+    font-size: 30px;
+    font-weight:600;
+    font-family:Arial, Helvetica, sans-serif;
+}
+form h2 .fa-regular{
+    font-size: 30px;
+    margin-top: 5px;
+}
+form input{
+    width: 40vh;
+    height: 30px;
+    border-radius: 20px;
+    outline: none;
+    padding-left: 20px;
+    border: 2px solid grey;
+}
+form input:focus{
+    border: 3px solid #6F00FF;
+}
+form textarea{
+    height:100px;
+    width: 40vh;
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    border: 2px solid gray;
+    outline: none;
+    resize: none;
+}
+form textarea:focus{
+    border: 3px solid #6F00FF;
+}
+form button{
+    height: 50px;
+    width: 150px;
+    font-size: large;
+    border-radius: 20px;
+    border: 3px solid #6F00FF;
+    color: #6F00FF;
+    background-color:white;
+    cursor: pointer;
+}
+form button:hover{
+    border: 3px solid #6F00FF;
+    color: white;
+    background-color:#6F00FF;
+    box-shadow: inset black;
+}
